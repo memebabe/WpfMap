@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MapWpf.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="StartZoomLevel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">12</Value>
+    </Setting>
+    <Setting Name="MaxZoomLevel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="MinZoomLevel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">13</Value>
+    </Setting>
+    <Setting Name="LeftMapBound" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">37.24468</Value>
+    </Setting>
+    <Setting Name="TopMapBound" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">55.9469</Value>
+    </Setting>
+    <Setting Name="RightMapBound" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">38.00891</Value>
+    </Setting>
+    <Setting Name="BottomMapBound" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">55.5601</Value>
+    </Setting>
+    <Setting Name="MapCacheLocalPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/DataMap/</Value>
+    </Setting>
+    <Setting Name="GoogleUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://mt1.google.com/vt/lyrs=m@146&amp;hl=en&amp;x={0}&amp;y={1}&amp;z={2}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

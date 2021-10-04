@@ -1,0 +1,32 @@
+﻿<UserControl
+    x:Class="MapWpf.MapUC"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MapWpf"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="900"
+    Height="700"
+    Loaded="UserControl_Loaded"
+    SizeChanged="UserControl_SizeChanged"
+    mc:Ignorable="d">
+    <Grid>
+        <Image
+            MouseDown="Image_MouseDown"
+            MouseMove="Image_MouseMove"
+            MouseUp="Image_MouseUp"
+            MouseWheel="Image_MouseWheel"
+            Source="{Binding DrawingImage}" />
+        <ScrollViewer
+            x:Name="Contentparent"
+            MaxWidth="400"
+            MaxHeight="400"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="White"
+            VerticalScrollBarVisibility="Hidden"
+            Visibility="Hidden">
+            <Grid x:Name="Content" />
+        </ScrollViewer>
+    </Grid>
+</UserControl>
